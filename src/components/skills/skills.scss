@@ -1,0 +1,45 @@
+@import "../../global.scss";
+
+.skills{
+    background-color: $secondaryColor;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    
+
+    h1{
+        font-size: 50px;
+        margin: 10px;
+    }
+
+    .container{
+        width: 90%;
+        height: 500px;
+        display:flex;
+        background-color: white;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        
+
+
+            .item{
+                height:200px;
+                width:200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                .icon{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                
+            }
+        
+
+    }
+}

@@ -1,0 +1,33 @@
+.bio{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    
+   
+    
+    h1{
+        font-size: 50px;
+    }
+
+    .container{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+
+        
+
+            .item{
+                display: flex;
+                font-size: 20px;
+                padding: 50px;
+               
+            }
+
+        
+    }
+
+    
+}
