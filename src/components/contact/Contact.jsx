@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
         <div className="right">
           <h2>Contact Me</h2>
-          <form onSubmit={handleSubmit}>
+          <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
             <input type="text" placeholder="Name"/>
             <input type="text" placeholder="Email"/>
             <textarea placeholder="Message"></textarea>
