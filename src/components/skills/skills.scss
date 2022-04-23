@@ -21,6 +21,10 @@
         background-color: white;
         border-radius: 20px;
         flex-wrap: wrap;
+
+        @include mobile{
+            width: 95%;
+        }
         
 
 
@@ -30,6 +34,11 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
+                @include mobile{
+                    height: 150px;
+                    width: 150px;
+                }
             
                 .icon{
                     display: flex;

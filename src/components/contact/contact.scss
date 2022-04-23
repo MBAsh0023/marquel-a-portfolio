@@ -37,6 +37,10 @@
         align-items:center;
         justify-content: center;
 
+        @include mobile {
+            align-content: space-between;
+        }
+
         h2{
             font-size: 30px;
             
@@ -53,6 +57,7 @@
             @include mobile{
                 height: 70%;
                 align-content:space-between;
+                justify-content: space-evenly;
                
             } 
             
