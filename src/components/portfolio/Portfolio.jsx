@@ -20,7 +20,7 @@ export default function Portfolio() {
             <h3>Portfolio Project</h3>
           </div>
           <h4> HTML - Sass - React - Javascript</h4>
-            <p>This profolio displaying my recent projects and contact information.</p>
+            <p>This profolio displaying my recent projects and contact information. Deployed with Netlify.</p>
         </div>
         <div className="card">
           <div className="item">
