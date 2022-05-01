@@ -34,14 +34,15 @@ export default function Portfolio() {
             <p>Application designed to help the user study. User can create decks of flash cards for different subjects.</p>
         </div><div className="card">
           <div className="item">
+          <a href="https://starter-movie-front-end-mbash0023.vercel.app">
             <img
-              src="assets/coming-soon-black.jpg"
-              alt="coming soon handwriting"
-            />
+              src="assets/we-love-movies.png"
+              alt="we love movies"
+            /></a>
             <h3>WeLoveMovies</h3>
           </div>
           <h4> RESTful API  - Node.js - Express</h4>
-            <p>Backend contribution. RESTful api using CRUD in an Express server.</p>
+            <p>Backend contribution. RESTful API using Express to create, read, update, and delete items in a movie database. Backend deployed with Herocku.<a href= "https://github.com/MBAsh0023/thinkful-welovemovies">Click here for GitHub Repo</a></p>
         </div>
       </div>
     </div>
