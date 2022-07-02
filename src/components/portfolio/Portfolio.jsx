@@ -24,16 +24,6 @@ export default function Portfolio() {
         </div>
         <div className="card">
           <div className="item">
-            <a href="https://github.com/MBAsh0023/Thinkful-Project-Flashcards"><img
-              src="assets/flashcard-app.png"
-              alt="Flashcard app"
-            /></a>
-            <h3>Flashcard App</h3>
-          </div>
-          <h4> React - Javascript - Bootstrap</h4>
-            <p>Application designed to help the user study. User can create decks of flash cards for different subjects.</p>
-        </div><div className="card">
-          <div className="item">
           <a href="https://starter-movie-front-end-mbash0023.vercel.app">
             <img
               src="assets/we-love-movies.png"
@@ -44,6 +34,19 @@ export default function Portfolio() {
           <h4> RESTful API  - Node.js - Express</h4>
             <p>Backend contribution. RESTful API using Express to create, read, update, and delete items in a movie database. Backend deployed with Herocku.<a href= "https://github.com/MBAsh0023/thinkful-welovemovies">Click here for GitHub Repo</a></p>
         </div>
+        <div className="card">
+          <div className="item">
+          <a href="https://marquel-capstone-res-frontend.herokuapp.com/dashboard">
+            <img
+              src="assets/res-reservation-app.png"
+              alt="restaurant reservation app"
+            /></a>
+            <h3>Reservation App</h3>
+          </div>
+          <h4> React - Node.js - RESTful API </h4>
+            <p>Full Stack Application. Application created to increase restaurant efficiency and organization of restaurant staff RESTful API using Express to create, read, update, and delete reservations. Frontend/Backend deployed with Heroku.<a href= "https://github.com/MBAsh0023/capstone-restaurant-reservation">Click here for GitHub Repo</a></p>
+        </div>
+        
       </div>
     </div>
   );
