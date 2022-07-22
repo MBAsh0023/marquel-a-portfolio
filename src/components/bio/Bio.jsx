@@ -19,7 +19,7 @@ export default function Bio() {
       </div>
       <div className="profiles">
         <div className="iconItem">
-          <a href="assets/Marquel-Boardley-Ashlock-Resume-June3022.pdf" download>
+          <a href="assets/PM Marquel-Boardley-Ashlock-Resume-2.pdf" download>
             <img src="assets/icons8-download-resume-100.png" alt="Resume" />
           </a>
           <h5>Resume Download</h5>
