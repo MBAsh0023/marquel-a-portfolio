@@ -26,7 +26,7 @@ export default function Portfolio() {
           <div className="item">
           <a href="https://starter-movie-front-end-mbash0023.vercel.app">
             <img
-              src="assets/we-love-movies.png"
+              src="assets/We-Love-Movies.png"
               alt="we love movies"
             /></a>
             <h3>WeLoveMovies</h3>
